@@ -4,7 +4,7 @@
 
 body {
   background-color: #000000;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
 }
 
@@ -45,8 +45,12 @@ body {
   margin-top: 20px;
   margin-left: 60px;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: bolder;
   vertical-align: bottom;
+}
+
+.search-bar {
+  position: relative;
 }
 
 .search-top {
@@ -81,6 +85,13 @@ h3 {
   padding-left: 10px;
 }
 
+.arrows {
+  position: absolute;
+  left: 87.5%;
+  top: 20.5%;
+}
+
+/*
 .icon-circle {
   position: absolute;
   left: 61.5%;
@@ -101,6 +112,7 @@ h3 {
   top: 16.7%;
   z-index: 2;
 }
+*/
 
 .map {
   position: absolute;
@@ -132,7 +144,8 @@ th {
   background-color: #eeeeee;
   padding-top: 20px;
   padding-left: 20px;
-  font-weight: bold;
+  padding-bottom: 5px;
+  font-weight: bolder;
 }
 
 .table-head2 {
